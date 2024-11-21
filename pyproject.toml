@@ -1,0 +1,21 @@
+[project]
+name = "example_package"
+version = "0.0.1"
+authors = [
+  { name="Matthew Harris", email="mharris@sdcclinical.com" },
+]
+description = "A small example package for machine learning algros with use in SDC Clinical infrastructure"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/sdcclinical/example_package"
+Issues = "https://github.com/sdcclinical/example_package/issues"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel", "pillow"]
+build-backend = "setuptools.build_meta"
