@@ -1,10 +1,10 @@
 [project]
-name = "example_package"
+name = "ora_img_qual"
 version = "0.0.1"
 authors = [
   { name="Matthew Harris", email="mharris@sdcclinical.com" },
 ]
-description = "A small example package for machine learning algros with use in SDC Clinical infrastructure"
+description = "A package for machine learning algros with use in SDC Clinical infrastructure"
 readme = "README.md"
 requires-python = ">=3.8"
 classifiers = [
