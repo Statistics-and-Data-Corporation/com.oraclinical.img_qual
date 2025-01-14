@@ -6,10 +6,19 @@ authors = [
 ]
 description = "A package for machine learning algros with use in SDC Clinical infrastructure"
 readme = "README.md"
-requires-python = ">=3.8"
+requires-python = ">=3.11"
 classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
+]
+
+dependencies = [
+  "torch",
+  "torchvision",
+  "scipy",
+  "numpy",
+  "pillow",
+  "pytest (>=8.3.4,<9.0.0)",
 ]
 
 [project.urls]
@@ -19,3 +28,4 @@ Issues = "https://github.com/sdcclinical/example_package/issues"
 [build-system]
 requires = ["setuptools>=61.0", "wheel", "pillow"]
 build-backend = "setuptools.build_meta"
+
